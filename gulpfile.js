@@ -6,7 +6,7 @@ const ugligy = require('gulp-uglify');
 function scripts() {
     return gulp.src('./src/scripts/*.js')
         .pipe(ugligy())
-        .pipe(gulp.dest('dist/js'))
+        .pipe(gulp.dest('./dist/js'))
 }
 
 function styles() {
